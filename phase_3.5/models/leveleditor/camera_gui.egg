@@ -1,0 +1,218 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg -o camera_gui.egg camera_gui.bam"
+}
+<Texture> camera_gui_palette_4allc_1 {
+  "phase_3.5/maps/camera_gui_palette_4allc_1.png"
+  <Scalar> format { rgba }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> palette.egg {
+  <Vertex> 0 {
+    -0.5 0 0.5
+    <UV> { 0.001953125 0.99609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    -0.5 0 -0.5
+    <UV> { 0.001953125 0.50390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    0.5 0 0.5
+    <UV> { 0.248046875 0.99609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    0.5 0 -0.5
+    <UV> { 0.248046875 0.50390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 4 {
+    -0.5 0 0.5
+    <UV> { 0.251953125 0.99609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 5 {
+    -0.5 0 -0.5
+    <UV> { 0.251953125 0.50390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 6 {
+    0.5 0 0.5
+    <UV> { 0.498046875 0.99609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 7 {
+    0.5 0 -0.5
+    <UV> { 0.498046875 0.50390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 8 {
+    -0.5 0 0.5
+    <UV> { 0.501953125 0.99609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 9 {
+    -0.5 0 -0.5
+    <UV> { 0.501953125 0.50390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 10 {
+    0.5 0 0.5
+    <UV> { 0.748046875 0.99609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 11 {
+    0.5 0 -0.5
+    <UV> { 0.748046875 0.50390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 12 {
+    -0.5 0 0.5
+    <UV> { 0.751953125 0.99609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 13 {
+    -0.5 0 -0.5
+    <UV> { 0.751953125 0.50390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 14 {
+    0.5 0 0.5
+    <UV> { 0.998046875 0.99609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 15 {
+    0.5 0 -0.5
+    <UV> { 0.998046875 0.50390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 16 {
+    -0.5 0 0.5
+    <UV> { 0.001953125 0.49609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 17 {
+    -0.5 0 -0.5
+    <UV> { 0.001953125 0.00390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 18 {
+    0.5 0 0.5
+    <UV> { 0.248046875 0.49609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 19 {
+    0.5 0 -0.5
+    <UV> { 0.248046875 0.00390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 20 {
+    -0.5 0 0.5
+    <UV> { 0.251953125 0.49609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 21 {
+    -0.5 0 -0.5
+    <UV> { 0.251953125 0.00390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 22 {
+    0.5 0 0.5
+    <UV> { 0.498046875 0.49609375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 23 {
+    0.5 0 -0.5
+    <UV> { 0.498046875 0.00390625 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <Group> {
+    <Group> cam_close {
+      <Scalar> alpha { dual }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 0 1 2 <Ref> { palette.egg } }
+      }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 2 1 3 <Ref> { palette.egg } }
+      }
+    }
+  }
+  <Group> {
+    <Group> cam_far {
+      <Scalar> alpha { dual }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 4 5 6 <Ref> { palette.egg } }
+      }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 6 5 7 <Ref> { palette.egg } }
+      }
+    }
+  }
+  <Group> {
+    <Group> cam_fp {
+      <Scalar> alpha { dual }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 8 9 10 <Ref> { palette.egg } }
+      }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 10 9 11 <Ref> { palette.egg } }
+      }
+    }
+  }
+  <Group> {
+    <Group> cam_med {
+      <Scalar> alpha { dual }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 12 13 14 <Ref> { palette.egg } }
+      }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 14 13 15 <Ref> { palette.egg } }
+      }
+    }
+  }
+  <Group> {
+    <Group> radial_menu_bg {
+      <Scalar> alpha { dual }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 16 17 18 <Ref> { palette.egg } }
+      }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 18 17 19 <Ref> { palette.egg } }
+      }
+    }
+  }
+  <Group> {
+    <Group> radial_menu_bg_quarter {
+      <Scalar> alpha { dual }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 20 21 22 <Ref> { palette.egg } }
+      }
+      <Polygon> {
+        <TRef> { camera_gui_palette_4allc_1 }
+        <VertexRef> { 22 21 23 <Ref> { palette.egg } }
+      }
+    }
+  }
+}
