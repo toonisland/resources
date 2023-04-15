@@ -1000,7 +1000,7 @@ group "daisysGarden" [
    ]
    landmark_building "tb35:toon_landmark_DG_A2_DNARoot" [
     code [ "toon_landmark_DG_A2" ]
-    title [ "Flower Bed and Breakfast" ]
+    title [ "Withering The Witcher" ]
     pos [ 65.1238 -11.5111 0 ]
     nhpr [ -90 0 -0 ]
     door [
@@ -1017,16 +1017,16 @@ group "daisysGarden" [
       scale [ 1.1108 1 0.787843 ]
       stomp [ 0.04903 ]
       text [
-       letters [ "F" ]
+       letters [ "W" ]
       ]
       text [
-       letters [ "l" ]
+       letters [ "i" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "t" ]
       ]
       text [
-       letters [ "w" ]
+       letters [ "h" ]
       ]
       text [
        letters [ "e" ]
@@ -1035,16 +1035,13 @@ group "daisysGarden" [
        letters [ "r" ]
       ]
       text [
-       letters [ " " ]
+       letters [ "i" ]
       ]
       text [
-       letters [ "B" ]
+       letters [ "n" ]
       ]
       text [
-       letters [ "e" ]
-      ]
-      text [
-       letters [ "d" ]
+       letters [ "g" ]
       ]
      ]
      baseline [
@@ -1055,43 +1052,37 @@ group "daisysGarden" [
       scale [ 1.28544 1 0.843713 ]
       stomp [ 0.0383746 ]
       text [
-       letters [ "a" ]
+       letters [ "T" ]
       ]
       text [
-       letters [ "n" ]
-      ]
-      text [
-       letters [ "d" ]
-      ]
-      text [
-       letters [ " " ]
-      ]
-      text [
-       letters [ "B" ]
-      ]
-      text [
-       letters [ "r" ]
+       letters [ "h" ]
       ]
       text [
        letters [ "e" ]
       ]
       text [
-       letters [ "a" ]
+       letters [ " " ]
       ]
       text [
-       letters [ "k" ]
+       letters [ "W" ]
       ]
       text [
-       letters [ "f" ]
-      ]
-      text [
-       letters [ "a" ]
-      ]
-      text [
-       letters [ "s" ]
+       letters [ "i" ]
       ]
       text [
        letters [ "t" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "r" ]
       ]
      ]
     ]
