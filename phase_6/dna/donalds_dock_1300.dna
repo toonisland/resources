@@ -153,7 +153,7 @@ group "donaldsDock" [
   battle_cell [ 20 20 25 20 -0.5 ]
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
-   pos [ 0 0 -3.8147e-006 ]
+   pos [ 0 0 -3.8147e-06 ]
    nhpr [ -0 0 -0 ]
    texture [ "street_street_DD_tex" ]
    texture [ "street_sidewalk_DD_tex" ]
@@ -218,40 +218,6 @@ group "donaldsDock" [
      code [ "cornice_shingles_ur" ]
      color [ 0.94 0.72 0.66 1 ]
     ]
-   ]
-  ]
-  flat_building "tb30:20_DNARoot" [
-   pos [ 50 0 0 ]
-   nhpr [ 180 0 -0 ]
-   width [ 20 ]
-   wall [
-    height [ 10 ]
-    code [ "wall_md_blank_ur" ]
-    color [ 0.42 0.16 0.16 1 ]
-    windows [
-     code [ "window_sm_square_ur" ]
-     color [ 0.87 0.65 0.33 1 ]
-     count [ 1 ]
-    ]
-   ]
-   wall [
-    height [ 10 ]
-    code [ "wall_md_blank_dl" ]
-    color [ 0.42 0.16 0.16 1 ]
-    windows [
-     code [ "window_sm_square_ur" ]
-     color [ 0.87 0.65 0.33 1 ]
-     count [ 1 ]
-    ]
-    cornice [
-     code [ "cornice_marble_ur" ]
-     color [ 0.76 0.57 0.29 1 ]
-    ]
-   ]
-   prop "prop_2ftdockpiling_DNARoot" [
-    code [ "prop_2ftdockpiling" ]
-    pos [ 20.45 -8.55 0 ]
-    nhpr [ -180 0 -0 ]
    ]
   ]
   flat_building "tb29:20_DNARoot" [
@@ -435,6 +401,18 @@ group "donaldsDock" [
     nhpr [ -90 0 -0 ]
    ]
   ]
+  prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
+   code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
+   pos [ 5.06166 27.9831 -0.500006 ]
+   nhpr [ 75 0 -0 ]
+  ]
+  interactive_prop "interactive_prop_phase_6_models_char__dod_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_6_models_char__dod_mailbox" ]
+   anim [ "tt_a_ara_dod_mailbox_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ 16.7109 5.26512 -3.8147e-06 ]
+   nhpr [ -180 0 -0 ]
+  ]
   prop "linktunnel_dd_1000_DNARoot" [
    code [ "prop_safe_zone_entrance_tunnel" ]
    pos [ 0 0 0 ]
@@ -445,10 +423,11 @@ group "donaldsDock" [
     baseline [
      code [ "mickey" ]
      color [ 0.501961 0 0 1 ]
-     pos [ 0 0 -1.28 ]
+     pos [ 0 0 -1.08634 ]
      scale [ 1.5 1 1.5 ]
      width [ 63.3553 ]
      height [ 63.3553 ]
+     flags [ "b" ]
      text [
       letters [ "P" ]
      ]
@@ -495,59 +474,79 @@ group "donaldsDock" [
      scale [ 0.8 1 0.8 ]
      width [ 41.2643 ]
      height [ 41.2643 ]
+     flags [ "b" ]
      text [
-      letters [ "D" ]
-     ]
-     text [
-      letters [ "O" ]
-     ]
-     text [
-      letters [ "N" ]
+      letters [ "R" ]
      ]
      text [
       letters [ "A" ]
      ]
      text [
-      letters [ "L" ]
+      letters [ "I" ]
      ]
      text [
-      letters [ "D" ]
+      letters [ "N" ]
      ]
      text [
-      letters [ "'" ]
-     ]
-     text [
-      letters [ "S" ]
-     ]
-     text [
-      letters [ " " ]
-     ]
-     text [
-      letters [ "D" ]
+      letters [ "B" ]
      ]
      text [
       letters [ "O" ]
      ]
      text [
-      letters [ "C" ]
+      letters [ "W" ]
      ]
      text [
-      letters [ "K" ]
+      letters [ " " ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "E" ]
      ]
     ]
    ]
   ]
-  prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
-   code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
-   pos [ 5.06166 27.9831 -0.500006 ]
-   nhpr [ 75 0 -0 ]
-  ]
-  interactive_prop "interactive_prop_phase_6_models_char__dod_mailbox_DNARoot" [
-   code [ "interactive_prop_phase_6_models_char__dod_mailbox" ]
-   anim [ "tt_a_ara_dod_mailbox_fightBoost" ]
-   cell_id [ 0 ]
-   pos [ 16.7109 5.26512 -3.8147e-006 ]
+  flat_building "tb30:20_DNARoot" [
+   pos [ 50 0 0 ]
    nhpr [ -180 0 -0 ]
+   width [ 20 ]
+   wall [
+    height [ 10 ]
+    code [ "wall_md_blank_ur" ]
+    color [ 0.42 0.16 0.16 1 ]
+    windows [
+     code [ "window_sm_square_ur" ]
+     color [ 0.87 0.65 0.33 1 ]
+     count [ 1 ]
+    ]
+   ]
+   wall [
+    height [ 10 ]
+    code [ "wall_md_blank_dl" ]
+    color [ 0.42 0.16 0.16 1 ]
+    windows [
+     code [ "window_sm_square_ur" ]
+     color [ 0.87 0.65 0.33 1 ]
+     count [ 1 ]
+    ]
+    cornice [
+     code [ "cornice_marble_ur" ]
+     color [ 0.76 0.57 0.29 1 ]
+    ]
+   ]
+   prop "prop_2ftdockpiling_DNARoot" [
+    code [ "prop_2ftdockpiling" ]
+    pos [ 20.45 -8.55 0 ]
+    nhpr [ -180 0 -0 ]
+   ]
   ]
  ]
  visgroup "1302" [
@@ -887,7 +886,7 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_6_models_char__dod_trashcan" ]
    anim [ "tt_a_ara_dod_trashcan_idle1" ]
    cell_id [ 0 ]
-   pos [ 65.4272 5.75721 7.62939e-006 ]
+   pos [ 65.4272 5.75721 7.62939e-06 ]
    nhpr [ -180 0 -0 ]
   ]
  ]
@@ -2073,7 +2072,7 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_6_models_char__dod_trashcan" ]
    anim [ "tt_a_ara_dod_trashcan_idle1" ]
    cell_id [ 0 ]
-   pos [ 102.316 -15.3605 3.05176e-005 ]
+   pos [ 102.316 -15.3605 3.05176e-05 ]
    nhpr [ 15 0 -0 ]
   ]
  ]
@@ -2390,7 +2389,7 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
    anim [ "tt_a_ara_ttc_hydrant_idle0" ]
    cell_id [ 0 ]
-   pos [ 91.393 -82.6269 3.05176e-005 ]
+   pos [ 91.393 -82.6269 3.05176e-05 ]
    nhpr [ 60 0 -0 ]
   ]
  ]
@@ -2941,7 +2940,7 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
    anim [ "tt_a_ara_ttc_hydrant_idle0" ]
    cell_id [ 0 ]
-   pos [ 107.021 -137.964 -7.62939e-006 ]
+   pos [ 107.021 -137.964 -7.62939e-06 ]
    nhpr [ 105 0 0 ]
   ]
   anim_prop "animated_prop_generic_phase_6_models_char__dod_trashcan_DNARoot" [
@@ -3057,72 +3056,6 @@ group "donaldsDock" [
     color [ 0.75 0.75 0.75 1 ]
    ]
   ]
-  landmark_building "tb7:toon_landmark_DD_C1_DNARoot" [
-   code [ "toon_landmark_DD_C1" ]
-   title [ "Keel Deals" ]
-   pos [ 170 -170 0 ]
-   nhpr [ -180 0 -0 ]
-   door [
-    code [ "door_double_wood_ur" ]
-    color [ 1 0.59 0.59 1 ]
-   ]
-   prop "streetlight_DD_left_DNARoot" [
-    code [ "streetlight_DD_left" ]
-    pos [ -1.71548 -17.8579 0 ]
-    nhpr [ -90 0 -0 ]
-   ]
-   sign [
-    code [ "DD_sign3" ]
-    scale [ 0.9 1 0.9 ]
-    baseline [
-     code [ "DD_Portago" ]
-     color [ 0 0.501961 0 1 ]
-     pos [ -1.82 0 0.4 ]
-     scale [ 2.5 1 2.5 ]
-     kern [ 0.066934 ]
-     wiggle [ 0.96892 ]
-     stumble [ 0.030006 ]
-     stomp [ -0.072048 ]
-     text [
-      letters [ "K" ]
-     ]
-     text [
-      letters [ "E" ]
-     ]
-     text [
-      letters [ "E" ]
-     ]
-     text [
-      letters [ "L" ]
-     ]
-    ]
-    baseline [
-     code [ "DD_Portago" ]
-     color [ 0 0.501961 0 1 ]
-     pos [ -1.9 0 -1.8 ]
-     scale [ 2.5 1 2.5 ]
-     kern [ 0.102278 ]
-     wiggle [ 2.71481 ]
-     stumble [ 0.040594 ]
-     stomp [ -0.055629 ]
-     text [
-      letters [ "D" ]
-     ]
-     text [
-      letters [ "E" ]
-     ]
-     text [
-      letters [ "A" ]
-     ]
-     text [
-      letters [ "L" ]
-     ]
-     text [
-      letters [ "S" ]
-     ]
-    ]
-   ]
-  ]
   flat_building "tb7:20_DNARoot" [
    pos [ 150 -170 0 ]
    nhpr [ -180 0 -0 ]
@@ -3169,6 +3102,75 @@ group "donaldsDock" [
    cell_id [ 0 ]
    pos [ 160.429 -153.329 0 ]
    nhpr [ -180 0 -0 ]
+  ]
+  landmark_building "tb7:toon_landmark_DD_C1_DNARoot" [
+   code [ "toon_landmark_DD_C1" ]
+   title [ "Keel Deals" ]
+   pos [ 170 -170 0 ]
+   nhpr [ -180 0 -0 ]
+   door [
+    code [ "door_double_wood_ur" ]
+    color [ 1 0.59 0.59 1 ]
+   ]
+   prop "streetlight_DD_left_DNARoot" [
+    code [ "streetlight_DD_left" ]
+    pos [ -1.71548 -17.8579 0 ]
+    nhpr [ -90 0 -0 ]
+   ]
+   sign [
+    code [ "DD_sign3" ]
+    scale [ 0.9 1 0.9 ]
+    baseline [
+     code [ "DD_Portago" ]
+     color [ 0 0.501961 0 1 ]
+     pos [ -1.82 0 -0.163752 ]
+     scale [ 2.5 1 2.5 ]
+     kern [ 0.066934 ]
+     wiggle [ 0.96892 ]
+     stumble [ 0.030006 ]
+     stomp [ -0.072048 ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "a" ]
+     ]
+     text [
+      letters [ "y" ]
+     ]
+     text [
+      letters [ "l" ]
+     ]
+     text [
+      letters [ "a" ]
+     ]
+     text [
+      letters [ "'" ]
+     ]
+     text [
+      letters [ "s" ]
+     ]
+    ]
+    baseline [
+     code [ "DD_Portago" ]
+     color [ 0 0.501961 0 1 ]
+     pos [ -1.9 0 -1.34015 ]
+     scale [ 1.96382 1 1.14222 ]
+     kern [ 0.102278 ]
+     wiggle [ 2.71481 ]
+     stumble [ 0.040594 ]
+     stomp [ -0.055629 ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+    ]
+   ]
   ]
  ]
  visgroup "1308" [
@@ -4048,70 +4050,6 @@ group "donaldsDock" [
     nhpr [ 165 0 -0 ]
    ]
   ]
-  landmark_building "tb8:toon_landmark_DD_B2_DNARoot" [
-   code [ "toon_landmark_DD_B2" ]
-   title [ "Family Friendly Bronco" ]
-   pos [ 265 -170 0 ]
-   nhpr [ 180 0 -0 ]
-   door [
-    code [ "door_double_wood_ur" ]
-    color [ 0.94 0.7 0.49 1 ]
-   ]
-   sign [
-    code [ "DD_sign1" ]
-    pos [ 0 0 -0.78 ]
-    baseline [
-     code [ "humanist" ]
-     color [ 0.341176 0.176471 0.176471 1 ]
-     pos [ 0.36 0 0.2 ]
-     scale [ 1.5 1 1.5 ]
-     kern [ 0.053308 ]
-     wiggle [ 5 ]
-     stumble [ 0.02 ]
-     stomp [ 0.02 ]
-     flags [ "d" ]
-     text [
-      letters [ "K" ]
-     ]
-     text [
-      letters [ "N" ]
-     ]
-     text [
-      letters [ "O" ]
-     ]
-     text [
-      letters [ "T" ]
-     ]
-     text [
-      letters [ "S" ]
-     ]
-     text [
-      letters [ " " ]
-     ]
-     text [
-      letters [ "S" ]
-     ]
-     text [
-      letters [ "O" ]
-     ]
-     text [
-      letters [ " " ]
-     ]
-     text [
-      letters [ "F" ]
-     ]
-     text [
-      letters [ "A" ]
-     ]
-     text [
-      letters [ "S" ]
-     ]
-     text [
-      letters [ "T" ]
-     ]
-    ]
-   ]
-  ]
   landmark_building "tb9:toon_landmark_DD_B1_DNARoot" [
    code [ "toon_landmark_DD_B1" ]
    title [ "Rusty Buckets" ]
@@ -4493,6 +4431,94 @@ group "donaldsDock" [
    cell_id [ 0 ]
    pos [ 273.767 -139.582 0 ]
    nhpr [ -90 0 -0 ]
+  ]
+  landmark_building "tb8:toon_landmark_DD_B2_DNARoot" [
+   code [ "toon_landmark_DD_B2" ]
+   title [ "Family Friendly Stern" ]
+   pos [ 265 -170 0 ]
+   nhpr [ 180 0 -0 ]
+   door [
+    code [ "door_double_wood_ur" ]
+    color [ 0.94 0.7 0.49 1 ]
+   ]
+   sign [
+    code [ "DD_sign1" ]
+    pos [ 0 0 -0.78 ]
+    baseline [
+     code [ "humanist" ]
+     color [ 0.341176 0.176471 0.176471 1 ]
+     pos [ 0.36 0 0.2 ]
+     scale [ 0.90259 1 1.46601 ]
+     kern [ 0.053308 ]
+     wiggle [ 5 ]
+     stumble [ 0.02 ]
+     stomp [ 0.02 ]
+     flags [ "d" ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+    ]
+   ]
   ]
  ]
  visgroup "1311" [
@@ -6122,7 +6148,7 @@ group "donaldsDock" [
   ]
   street "street_sidewalk_20x20_DNARoot" [
    code [ "street_sidewalk_20x20" ]
-   pos [ 330 -80 -9.09495e-013 ]
+   pos [ 330 -80 -9.09495e-13 ]
    nhpr [ -90 0 -0 ]
    texture [ "street_street_DD_tex" ]
    texture [ "street_sidewalk_DD_tex" ]
@@ -6493,14 +6519,14 @@ group "donaldsDock" [
   anim_prop "animated_prop_generic_phase_6_models_char__dod_trashcan_DNARoot" [
    code [ "animated_prop_generic_phase_6_models_char__dod_trashcan" ]
    anim [ "tt_a_ara_dod_trashcan_idle1" ]
-   pos [ 344.58 -58.1883 3.8147e-006 ]
+   pos [ 344.58 -58.1883 3.8147e-06 ]
    nhpr [ -120 0 -0 ]
   ]
   interactive_prop "interactive_prop_phase_6_models_char__dod_mailbox_DNARoot" [
    code [ "interactive_prop_phase_6_models_char__dod_mailbox" ]
    anim [ "tt_a_ara_dod_mailbox_fightBoost" ]
    cell_id [ 0 ]
-   pos [ 334.102 -89.5202 -7.62939e-006 ]
+   pos [ 334.102 -89.5202 -7.62939e-06 ]
    nhpr [ 180 0 -0 ]
   ]
  ]
@@ -6758,7 +6784,7 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
    anim [ "tt_a_ara_ttc_hydrant_idle0" ]
    cell_id [ 0 ]
-   pos [ 379.257 -13.5795 3.8147e-006 ]
+   pos [ 379.257 -13.5795 3.8147e-06 ]
    nhpr [ -165 0 0 ]
   ]
  ]
@@ -7684,7 +7710,7 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_6_models_char__dod_mailbox" ]
    anim [ "tt_a_ara_dod_mailbox_fightBoost" ]
    cell_id [ 0 ]
-   pos [ 404.406 -37.2436 3.8147e-006 ]
+   pos [ 404.406 -37.2436 3.8147e-06 ]
    nhpr [ 90 0 -0 ]
   ]
  ]
@@ -7946,7 +7972,7 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_6_models_char__dod_trashcan" ]
    anim [ "tt_a_ara_dod_trashcan_idle1" ]
    cell_id [ 0 ]
-   pos [ 438.473 -110.356 1.52588e-005 ]
+   pos [ 438.473 -110.356 1.52588e-05 ]
    nhpr [ -135 0 -0 ]
   ]
  ]
@@ -9600,13 +9626,13 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
    anim [ "tt_a_ara_ttc_hydrant_idle0" ]
    cell_id [ 0 ]
-   pos [ 549.002 -153.217 3.8147e-005 ]
+   pos [ 549.002 -153.217 3.8147e-05 ]
    nhpr [ 165 0 0 ]
   ]
   anim_prop "animated_prop_generic_phase_6_models_char__dod_trashcan_DNARoot" [
    code [ "animated_prop_generic_phase_6_models_char__dod_trashcan" ]
    anim [ "tt_a_ara_dod_trashcan_idle1" ]
-   pos [ 577.351 -162.715 1.52588e-005 ]
+   pos [ 577.351 -162.715 1.52588e-05 ]
    nhpr [ -105 0 -0 ]
   ]
  ]
@@ -9744,7 +9770,7 @@ group "donaldsDock" [
    ]
    prop "prop_palm_tree_topflat_DNARoot" [
     code [ "prop_palm_tree_topflat" ]
-    pos [ 12.6 -12.42 3.63798e-012 ]
+    pos [ 12.6 -12.42 3.63798e-12 ]
     nhpr [ -90 0 -0 ]
     scale [ 1.1 1.1 1.1 ]
    ]
@@ -9962,7 +9988,7 @@ group "donaldsDock" [
    code [ "interactive_prop_phase_6_models_char__dod_mailbox" ]
    anim [ "tt_a_ara_dod_mailbox_fightBoost" ]
    cell_id [ 0 ]
-   pos [ 543.785 -91.8223 -7.62939e-006 ]
+   pos [ 543.785 -91.8223 -7.62939e-06 ]
    nhpr [ 75 0 -0 ]
   ]
  ]
@@ -10736,6 +10762,11 @@ group "donaldsDock" [
     nhpr [ -120 0 -0 ]
    ]
   ]
+  prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
+   code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
+   pos [ 624.279 -58.0312 -0.500015 ]
+   nhpr [ -105 0 0 ]
+  ]
   prop "linktunnel_br_3101_DNARoot" [
    code [ "prop_neighborhood_tunnel" ]
    pos [ 630 -50 0 ]
@@ -10747,12 +10778,13 @@ group "donaldsDock" [
     baseline [
      code [ "mickey" ]
      color [ 0 0.501961 0.501961 1 ]
-     pos [ 0 0 -0.98 ]
-     scale [ 1.5 1 1.5 ]
+     pos [ 0 0 -1.10633 ]
+     scale [ 1.09018 1 1.48733 ]
      width [ 44.5573 ]
      height [ 44.5573 ]
+     flags [ "b" ]
      text [
-      letters [ "W" ]
+      letters [ "B" ]
      ]
      text [
       letters [ "A" ]
@@ -10761,25 +10793,46 @@ group "donaldsDock" [
       letters [ "L" ]
      ]
      text [
-      letters [ "R" ]
+      letters [ "L" ]
      ]
      text [
-      letters [ "U" ]
+      letters [ "O" ]
      ]
      text [
-      letters [ "S" ]
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "N" ]
      ]
      text [
       letters [ " " ]
      ]
      text [
-      letters [ "W" ]
+      letters [ "B" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "V" ]
      ]
      text [
       letters [ "A" ]
      ]
      text [
-      letters [ "Y" ]
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "D" ]
      ]
     ]
     baseline [
@@ -10796,43 +10849,48 @@ group "donaldsDock" [
      scale [ 0.8 1 0.8 ]
      width [ 33.0786 ]
      height [ 33.0786 ]
+     flags [ "b" ]
      text [
-      letters [ "T" ]
+      letters [ "C" ]
      ]
      text [
-      letters [ "H" ]
+      letters [ "I" ]
      ]
      text [
-      letters [ "E" ]
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "S" ]
      ]
      text [
       letters [ " " ]
      ]
      text [
-      letters [ "B" ]
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "I" ]
      ]
      text [
       letters [ "R" ]
      ]
      text [
-      letters [ "R" ]
+      letters [ "C" ]
      ]
      text [
-      letters [ "R" ]
+      letters [ "U" ]
      ]
      text [
-      letters [ "G" ]
-     ]
-     text [
-      letters [ "H" ]
+      letters [ "S" ]
      ]
     ]
    ]
-  ]
-  prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
-   code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
-   pos [ 624.279 -58.0312 -0.500015 ]
-   nhpr [ -105 0 0 ]
   ]
  ]
  visgroup "1330" [
@@ -11040,13 +11098,13 @@ group "donaldsDock" [
   anim_prop "animated_prop_generic_phase_6_models_char__dod_trashcan_DNARoot" [
    code [ "animated_prop_generic_phase_6_models_char__dod_trashcan" ]
    anim [ "tt_a_ara_dod_trashcan_idle0" ]
-   pos [ 341.613 82.3785 3.8147e-006 ]
+   pos [ 341.613 82.3785 3.8147e-06 ]
    nhpr [ -60 0 -0 ]
   ]
   anim_prop "animated_prop_generic_phase_6_models_char__dod_trashcan_DNARoot" [
    code [ "animated_prop_generic_phase_6_models_char__dod_trashcan" ]
    anim [ "tt_a_ara_dod_trashcan_idle0" ]
-   pos [ 358.781 82.6592 3.8147e-006 ]
+   pos [ 358.781 82.6592 3.8147e-06 ]
    nhpr [ 60 0 0 ]
   ]
  ]

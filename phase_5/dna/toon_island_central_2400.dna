@@ -1894,7 +1894,7 @@ group "toontownCentral" [
    ]
    landmark_building "tb7:toon_landmark_TT_C1_DNARoot" [
     code [ "toon_landmark_TT_C1" ]
-    title [ "Nayla's Bakery" ]
+    title [ "Cake Factory" ]
     pos [ -240 160 0 ]
     nhpr [ -0 0 -0 ]
     door [
@@ -1906,36 +1906,12 @@ group "toontownCentral" [
      baseline [
       code [ "TT_Comedy" ]
       color [ 0 0 0 1 ]
-      pos [ 0 0 -0.8 ]
-      scale [ 1.7 1 1.7 ]
+      pos [ 0 0 -0.949385 ]
+      scale [ 1.69996 1 1.57692 ]
       width [ 50 ]
       height [ 50 ]
       text [
-       letters [ "N" ]
-      ]
-      text [
-       letters [ "a" ]
-      ]
-      text [
-       letters [ "y" ]
-      ]
-      text [
-       letters [ "l" ]
-      ]
-      text [
-       letters [ "a" ]
-      ]
-      text [
-       letters [ "'" ]
-      ]
-      text [
-       letters [ "s" ]
-      ]
-      text [
-       letters [ " " ]
-      ]
-      text [
-       letters [ "B" ]
+       letters [ "C" ]
       ]
       text [
        letters [ "a" ]
@@ -1945,6 +1921,24 @@ group "toontownCentral" [
       ]
       text [
        letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "F" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ "o" ]
       ]
       text [
        letters [ "r" ]
