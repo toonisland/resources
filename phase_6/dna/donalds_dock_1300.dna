@@ -5817,80 +5817,6 @@ group "donaldsDock" [
     nhpr [ -30 0 -0 ]
    ]
   ]
-  landmark_building "tb15:toon_landmark_DD_B1_DNARoot" [
-   code [ "toon_landmark_DD_B1" ]
-   title [ "What's Up, Dock?" ]
-   pos [ 295 30 0 ]
-   nhpr [ -0 0 -0 ]
-   door [
-    code [ "door_double_wood_ur" ]
-    color [ 0.52 0.61 0.52 1 ]
-   ]
-   sign [
-    code [ "DD_sign1" ]
-    pos [ 0 0 -0.8 ]
-    nhpr [ -0 0 -3 ]
-    baseline [
-     code [ "DD_Portago" ]
-     color [ 0 0.501961 0.25098 1 ]
-     pos [ 0.31 0 0.38 ]
-     nhpr [ -0 0 1 ]
-     scale [ 1.5 1 1.5 ]
-     kern [ 0.156733 ]
-     wiggle [ 4 ]
-     stumble [ 0.01 ]
-     stomp [ 0.03 ]
-     text [
-      letters [ "W" ]
-     ]
-     text [
-      letters [ "H" ]
-     ]
-     text [
-      letters [ "A" ]
-     ]
-     text [
-      letters [ "T" ]
-     ]
-     text [
-      letters [ "'" ]
-     ]
-     text [
-      letters [ "S" ]
-     ]
-     text [
-      letters [ " " ]
-     ]
-     text [
-      letters [ "U" ]
-     ]
-     text [
-      letters [ "P" ]
-     ]
-    ]
-    baseline [
-     code [ "DD_Portago" ]
-     color [ 0 0.501961 0.25098 1 ]
-     pos [ 0.34 0 -0.95 ]
-     scale [ 1.5 1 1.5 ]
-     kern [ 0.104449 ]
-     wiggle [ 3.70444 ]
-     stomp [ -0.053529 ]
-     text [
-      letters [ "D" ]
-     ]
-     text [
-      letters [ "O" ]
-     ]
-     text [
-      letters [ "C" ]
-     ]
-     text [
-      letters [ "K" ]
-     ]
-    ]
-   ]
-  ]
   flat_building "tb15:20_DNARoot" [
    pos [ 330 30 0 ]
    nhpr [ -0 0 -0 ]
@@ -5923,6 +5849,137 @@ group "donaldsDock" [
     code [ "prop_2ftdockpiling" ]
     pos [ 9.12 -16.44 0 ]
     nhpr [ 90 0 -0 ]
+   ]
+  ]
+  landmark_building "tb15:toon_landmark_DD_B1_DNARoot" [
+   code [ "toon_landmark_DD_B1" ]
+   title [ "Ocean Commotion Fishing Equipment?" ]
+   pos [ 295 30 0 ]
+   nhpr [ -0 0 -0 ]
+   door [
+    code [ "door_double_wood_ur" ]
+    color [ 0.52 0.61 0.52 1 ]
+   ]
+   sign [
+    code [ "DD_sign1" ]
+    pos [ 0 0 -0.8 ]
+    nhpr [ -0 0 -3 ]
+    baseline [
+     code [ "DD_Portago" ]
+     color [ 0 0.501961 0.25098 1 ]
+     pos [ 0.31 0 0.38 ]
+     nhpr [ -0 0 1 ]
+     scale [ 1.5 1 1.5 ]
+     kern [ 0.156733 ]
+     wiggle [ 4 ]
+     stumble [ 0.01 ]
+     stomp [ 0.03 ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+    ]
+    baseline [
+     code [ "DD_Portago" ]
+     color [ 0 0.501961 0.25098 1 ]
+     pos [ 0.777229 0 -0.95 ]
+     scale [ 1.15747 1 1.5 ]
+     kern [ 0.104449 ]
+     wiggle [ 3.70444 ]
+     stomp [ -0.053529 ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "Q" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+    ]
    ]
   ]
  ]
